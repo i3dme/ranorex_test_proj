@@ -27,6 +27,7 @@ namespace Test_Proj_2
     public partial class Test_Proj_2Repository : RepoGenBaseFolder
     {
         static Test_Proj_2Repository instance = new Test_Proj_2Repository();
+        Test_Proj_2RepositoryFolders.AmericanAirlineAppFolder _americanairline;
 
         /// <summary>
         /// Gets the singleton class instance representing the Test_Proj_2Repository element repository.
@@ -43,6 +44,7 @@ namespace Test_Proj_2
         public Test_Proj_2Repository() 
             : base("Test_Proj_2Repository", "/", null, 0, false, "8831f007-02f6-40e1-9ce4-f8d052039847", ".\\RepositoryImages\\Test_Proj_2Repository8831f007.rximgres")
         {
+            _americanairline = new Test_Proj_2RepositoryFolders.AmericanAirlineAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +62,15 @@ namespace Test_Proj_2
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The AmericanAirline folder.
+        /// </summary>
+        [RepositoryFolder("301802ab-54f8-4cb7-8740-31f20abdde00")]
+        public virtual Test_Proj_2RepositoryFolders.AmericanAirlineAppFolder AmericanAirline
+        {
+            get { return _americanairline; }
+        }
     }
 
     /// <summary>
@@ -68,6 +79,72 @@ namespace Test_Proj_2
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", "5.4.0")]
     public partial class Test_Proj_2RepositoryFolders
     {
+        /// <summary>
+        /// The AmericanAirlineAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("301802ab-54f8-4cb7-8740-31f20abdde00")]
+        public partial class AmericanAirlineAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _login_username_aaInfo;
+
+            /// <summary>
+            /// Creates a new AmericanAirline  folder.
+            /// </summary>
+            public AmericanAirlineAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("AmericanAirline", "/element", parentFolder, 30000, null, true, "301802ab-54f8-4cb7-8740-31f20abdde00", "")
+            {
+                _login_username_aaInfo = new RepoItemInfo(this, "Login_UserName_AA", "element", 30000, null, "3eef9ef0-0e73-4dfa-91d8-2f1137fc3a05");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("301802ab-54f8-4cb7-8740-31f20abdde00")]
+            public virtual Ranorex.Unknown Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("301802ab-54f8-4cb7-8740-31f20abdde00")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The Login_UserName_AA item.
+            /// </summary>
+            [RepositoryItem("3eef9ef0-0e73-4dfa-91d8-2f1137fc3a05")]
+            public virtual Ranorex.Unknown Login_UserName_AA
+            {
+                get
+                {
+                    return _login_username_aaInfo.CreateAdapter<Ranorex.Unknown>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Login_UserName_AA item info.
+            /// </summary>
+            [RepositoryItemInfo("3eef9ef0-0e73-4dfa-91d8-2f1137fc3a05")]
+            public virtual RepoItemInfo Login_UserName_AAInfo
+            {
+                get
+                {
+                    return _login_username_aaInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

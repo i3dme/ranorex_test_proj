@@ -57,6 +57,12 @@
     <Compile Include="AssemblyInfo.cs">
       <id>8bac4c61-c550-45ef-97a6-9d9685c32eaf</id>
     </Compile>
+    <Compile Include="LoginComponent.cs">
+      <id>e554dfe9-2082-4a7d-9e42-3a0707e07dff</id>
+    </Compile>
+    <Compile Include="OpenChrome.cs">
+      <id>ce6bf4bf-08f4-4d23-9723-808dc8c897b9</id>
+    </Compile>
     <Compile Include="Program.cs">
       <id>aa74e229-2563-4341-87a9-bec9c6bacfb1</id>
     </Compile>

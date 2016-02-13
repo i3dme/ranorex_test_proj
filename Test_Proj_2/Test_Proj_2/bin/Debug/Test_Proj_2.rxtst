@@ -18,7 +18,7 @@ reportlevel="Info;20">
 		name="OpenBrowser"
 		id="208fb000-5e38-494b-9f14-346fd548146e">
 			<testmodule
-			name="OpenChrome"
+			name="OpenFireFox"
 			id="9d2aeeae-83ee-4585-bd28-42152ffc9c45"
 			ref="787747de-d4be-4b00-af30-8cecbf73577a"
 			type="UserCode"/>

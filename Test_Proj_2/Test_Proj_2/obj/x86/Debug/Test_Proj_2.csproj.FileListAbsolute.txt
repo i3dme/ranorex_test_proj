@@ -1,0 +1,8 @@
+C:\Users\automation\Documents\ranorex_test_proj\Test_Proj_2\Test_Proj_2\obj\x86\Debug\Test_Proj_2.csprojResolveAssemblyReference.cache
+C:\Users\automation\Documents\ranorex_test_proj\Test_Proj_2\Test_Proj_2\bin\Debug\Test_Proj_2.rxtmg
+C:\Users\automation\Documents\ranorex_test_proj\Test_Proj_2\Test_Proj_2\bin\Debug\Test_Proj_2.rxtst
+C:\Users\automation\Documents\ranorex_test_proj\Test_Proj_2\Test_Proj_2\bin\Debug\Test_Proj_2.exe.config
+C:\Users\automation\Documents\ranorex_test_proj\Test_Proj_2\Test_Proj_2\bin\Debug\Test_Proj_2.exe
+C:\Users\automation\Documents\ranorex_test_proj\Test_Proj_2\Test_Proj_2\bin\Debug\Test_Proj_2.pdb
+C:\Users\automation\Documents\ranorex_test_proj\Test_Proj_2\Test_Proj_2\obj\x86\Debug\Test_Proj_2.exe
+C:\Users\automation\Documents\ranorex_test_proj\Test_Proj_2\Test_Proj_2\obj\x86\Debug\Test_Proj_2.pdb
