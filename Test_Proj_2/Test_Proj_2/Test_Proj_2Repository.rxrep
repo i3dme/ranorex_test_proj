@@ -1,0 +1,18 @@
+﻿<repository
+name="Test_Proj_2Repository"
+id="923a1189-7690-4073-b47c-70c33b80fba0"
+rxversion="5.4.0.24580">
+  <codegen
+  classname="Test_Proj_2Repository"
+  namespace="Test_Proj_2"/>
+  <rootfolder
+  name="Root"
+  id="8831f007-02f6-40e1-9ce4-f8d052039847"
+  searchtimeout="30000ms"
+  capname="unknown"
+  isrooted="True"
+  usecache="True">
+    <basepath/>
+  </rootfolder>
+  <variables/>
+</repository>
